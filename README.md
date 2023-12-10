@@ -67,7 +67,8 @@ The carriers with most connectivity (based on number of occurences in dataset) d
 <img width="672" alt="image" src="https://github.com/vamshi8719/airline_delay_cause/assets/56979563/35b77a11-ada5-46e6-a5ed-da6aa07a1745">  
 
 
-## Conclusions  
+## Key Insights for Presentation
 
-The flight delays can be caused due to multiple reasons. We normally assume weather to be one of bigges reason for flight delays. It was quite suprising to see that delays due to carrier and air traffic (nas) are primary reasons. There were several outliers in the dataset, which made analysis quite difficult. The outliers were overcome by limiting the plot xlim. The dataset for the year 2023 is not complete.  
-
+Ratio of number for flights delayed to overall flights fluctuates each year. Less flights arriving results in less air traffic and hence fewer delays.  
+Late_aircraft_delay and carrier_delay are highly correlated. This is due to the fact that if a flight got delayed in its prior trip, there are high chances that it is not arriving on time for the current trip.  
+Late_aircraft_delay and nas_delay are also highly correlated. This can be explained from the fact that the earlier flight may not have taken off due to heavy air traffic.  
