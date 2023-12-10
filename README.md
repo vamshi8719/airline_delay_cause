@@ -2,7 +2,28 @@
 This is a Udacity nano degree project to analyze airline delay cause data. The goal of the project is to show the major causes of flight delay and also explore any relation between the reasons.
 
 # Dataset Overview
-The dataset is maitained by U.S. Department of Transportation with data reported by airlines. The delay reasons reported are carrier, late aircraft, nas (air traffic), weather, and security. There is one record for every airline and airport per month. The other details provided are total flights arriving into airport, cancellations, and divertions.  
+The dataset is maitained by U.S. Department of Transportation with data reported by airlines. The delay reasons reported are carrier, late aircraft, nas (air traffic), weather, and security. There is one record for every airline and airport per month. The other details provided are total flights arriving into airport, cancellations, and divertions. Below columns are available in the dataset: 
+
+year = year of flight  
+month = month of flight  
+carrier = carrier code  
+carrier_name = airline name  
+airport = airport code  
+airport_name = name of airport  
+arr_flights = number of flights arrived  
+arr_del15 = number of flights that got delayed for more than 15 minutes  
+carrier_ct = number of flights that got delayed due to carrier  
+weather_ct = number of flights that got delayed due to weather  
+nas_ct = number of flights that got delayed due to heavy traffic  
+security_ct = number of flights that got delayed due to security  
+late_aircraft_ct = number of flights that got delayed due to previous flight on same plane  
+arr_cancelled = number of flights cancelled  
+arr_diverted = number of flights diverted  
+carrier_delay = delay in minutes due to carrier  
+nas_delay = delay in minutes due to heavy traffic  
+security_delay = delay in minutes due to security  
+weather_delay = delay in minutes due to weather  
+late_aircraft_delay = delay in minutes due to previous flight on same plane  
 
 # Software and Packages
 Jupyter Notebook  
