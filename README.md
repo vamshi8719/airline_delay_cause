@@ -41,6 +41,15 @@ Univariate Exploration
 Bivariate Exploration  
 Multivariate Exploration  
 
+# Data Wrangling
+
+Few records in arr_del15 were missing values. arr_del15 was derived by adding number of flights by individual reason  
+Extra records where the arr_del15 was still missing records were removed from dataset  
+Dataframe was melted to analyze the delay due to each reason  
+Ratio of arr_cancelled, arr_diverted, arr_del15 was calculated by dividing them with total flights  
+Numbering on month was changed to string (1 is named as January). Data type of month was later changed to category  
+Airport name is split into city and airport name  
+
 # Findings
 
 <img width="413" alt="image" src="https://github.com/vamshi8719/airline_delay_cause/assets/56979563/492b0f02-9862-46fa-a407-d90022670ce0">
