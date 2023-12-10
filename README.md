@@ -52,6 +52,15 @@ Airport name is split into city and airport name
 
 # Findings
 
+It was observed that there was a relation between number of flights arriving to the flight delay. It is also logical as nas_delay (heavy traffic) is directly related to how busy an airport is.  
+Weather did have an impact on delay in the months of June, July, and December.  
+Late_aircraft_delay has high correlation to nas_delay. This is due to the fact that if an aircraft does not arrive on time it is supposed to, it can have an impact on air traffic.  
+Southwest airlines has the most number of flights in the data from 2003 to 2023.  
+Southwest also has the biggest cancellation of flights compared to all others.  
+Delay got reduced in 2020 as there were few flights arriving compared to years prior and later.  
+The carriers with most connectivity (based on number of occurences in dataset) does not necessarily mean they have the most flights arrived.  
+
+
 <img width="413" alt="image" src="https://github.com/vamshi8719/airline_delay_cause/assets/56979563/492b0f02-9862-46fa-a407-d90022670ce0">
 
 
